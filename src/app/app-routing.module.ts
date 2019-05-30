@@ -13,12 +13,18 @@ const routes: Routes = [
     component: HomeComponent
   },
   // {
-  //   path: 'libmeva-experimental',
-  //   loadChildren: () => import('@masalbertwork/lib1').then(m => m.Lib1Module)
+  //   path: 'app1',
+  //   loadChildren: './lazy/app1-wrapper.module#App1WrapperModule'
   // },
   {
     path: 'app1',
-    loadChildren: './lazy/app1-wrapper.module#App1WrapperModule'
+    loadChildren: () =>
+      import('./lazy/app1-wrapper.module').then(m => m.App1WrapperModule)
+  },
+  {
+    path: 'app2',
+    loadChildren: () =>
+      import('./lazy/app2-wrapper.module').then(m => m.App2WrapperModule)
   },
   {
     path: '**',
