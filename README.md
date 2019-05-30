@@ -1,6 +1,13 @@
 # Arq1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+Intentem crear un contenidor per aplicacions que faci de portal. Pugui compartir components i serveis entre apps.
+
+## Creació
+
+    .- ng new arq1
+    .- cd arq1
+    .- ng g application app1
 
 ## Development server
 
