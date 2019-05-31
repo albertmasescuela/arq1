@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { UtilsService } from 'src/app/core/utils';
-
 @Component({
   selector: 'app-detall',
   templateUrl: './detall.component.html',

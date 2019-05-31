@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,9 @@ export class AppComponent implements OnInit {
   rutaApp1 = '';
   rutaApp2 = '';
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, private translate: TranslateService) {
+    translate.setDefaultLang('es');
+  }
 
   ngOnInit() {
     this.rutaApp1 = this.retailRoute(this.router.url) + '/app1';

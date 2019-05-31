@@ -1,0 +1,23 @@
+{
+  "LOGIN": {
+    "USUARIO": "Usuario",
+    "CONTRASENA": "Contraseña",
+    "SIGN_IN": "Entrar",
+    "MENSAJE_ENTRADA": "Envío de Preavisos",
+    "SUB_MENSAJE_ENTRADA": "Sign in",
+    "ERROR_LOGIN": "Usuario/Contraseña erróneos!"
+  },
+  "GENERAL": {
+    "TITULO": "Envío de Preavisos",
+    "PESTANYA1": "Enviar Preaviso",
+    "PESTANYA2": "Enviar Llego Tarde",
+    "PESTANYA3": "Enviar RPI",
+    "T_SALIR": "Salir",
+    "T_CONFIG": "Configuración",
+    "T_ACEPTAR": "Aceptar",
+    "T_CONTENEDORES": "Se han encontrado varios contenedores, por favor seleccione el que desea.",
+    "T_TAULA_CONTENEDORES": "Contenedores",
+    "T_TAULA_CERCA": "Cerca",
+    "NOT_FOUND": "Ups! Esta Url no existe!"
+  }
+}
