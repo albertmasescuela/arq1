@@ -1,6 +1,6 @@
 {
   "LOGIN": {
-    "USUARIO": "Usuario",
+    "USUARIO": "Hello {{name}}!",
     "CONTRASENA": "Contraseña",
     "SIGN_IN": "Entrar",
     "MENSAJE_ENTRADA": "Envío de Preavisos",
