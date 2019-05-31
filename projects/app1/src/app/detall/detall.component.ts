@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UtilsService } from 'src/app/core/utils';
 
 @Component({
   selector: 'app-detall',
@@ -6,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./detall.component.css']
 })
 export class DetallComponent implements OnInit {
-
-  constructor() { }
+  fechaHora: string;
+  constructor(private utilsService: UtilsService) {}
 
   ngOnInit() {
+    this.fechaHora = this.utilsService.twoDigits('1');
   }
-
 }
