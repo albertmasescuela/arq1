@@ -282,6 +282,12 @@
   dependencies:
     tslib "^1.9.0"
 
+"@ngx-translate/http-loader@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@ngx-translate/http-loader/-/http-loader-4.0.0.tgz#8a555248ad4b7d513460fcec9da25b0447962f1d"
+  dependencies:
+    tslib "^1.9.0"
+
 "@schematics/angular@8.0.1":
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-8.0.1.tgz#8d5bfb00c0ba79cc248c6d17b4782b00b6453d79"
@@ -523,8 +529,8 @@ acorn-dynamic-import@^4.0.0:
   resolved "https://registry.yarnpkg.com/acorn-dynamic-import/-/acorn-dynamic-import-4.0.0.tgz#482210140582a36b83c3e342e1cfebcaa9240948"
 
 acorn@^6.0.5:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.1.1.tgz#7d25ae05bb8ad1f9b699108e1094ecd7884adc1f"
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
 
 adm-zip@^0.4.9:
   version "0.4.13"
